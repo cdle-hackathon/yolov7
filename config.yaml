@@ -1,0 +1,9 @@
+weight_path: weights\best.pt
+source_path: inference/videos/output_pose.mp4
+save_path: inference/videos/demo_output.mp4
+img_size: 640
+conf_thres: 0.25
+iou_thres: 0.45
+device: "0"
+display: true
+agnostic_nms: false
